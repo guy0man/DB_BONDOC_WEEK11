@@ -141,7 +141,7 @@ namespace DB_BONDOC_WEEK11
             return value;
         }
 
-        public static string _readLastRecord(string SQL, string column)
+        public static string readLastRecord(string SQL, string column)
         {
             string value = "";
             try
